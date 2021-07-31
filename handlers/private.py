@@ -7,7 +7,8 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-      await message.reply_text(
+    await message.reply_sticker("CAACAgQAAx0CTv65QgABBfJlYF6VCrGMm6OJ23AxHmD6qUSWESsAAhoQAAKm8XEeD5nrjz5IJFYeBA")
+    await message.reply_text(
         f"""**مرحبا انا **{bn}** 🎵
 
 بامكاني تشغيل الاغاني في المكالمات الجماعيه 
@@ -25,7 +26,7 @@ async def start(_, message: Message):
                         "قناة للشروحات", url="https://t.me/X6UX6"
                     ),
                     InlineKeyboardButton(
-                        "قناة البوت", url="https://t.me/CQCQQ"
+                        "قناة البوت", url="https://t.me/L9L9L"
                     )
                 ],[ 
                     InlineKeyboardButton(
