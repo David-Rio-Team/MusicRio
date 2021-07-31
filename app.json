@@ -1,0 +1,40 @@
+{
+  "name": "Music Rio Bot",
+  "description": "@MusicRioBot",
+  "logo": "https://telegra.ph/file/58b49a246c25c8aa2f613.jpg",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/David-Rio-Team/MusicRio",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "String Name",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Token Bot",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "ديفد",
+      "required": false,
+      "value": "Group Music Bot"
+    },
+    "API_ID": {
+      "description": "App id",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "App Hash",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "id Account",
+      "required": true
+    },
+    "DURATION_LIMIT": {
+      "description": "Max audio duration limit for downloads (minutes).",
+      "required": true,
+      "value": "10"
+    }
+  }
+}
